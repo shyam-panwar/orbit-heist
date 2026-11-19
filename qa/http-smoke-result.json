@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "testedAt": "2026-10-23T20:50:30.665Z",
+  "base": "http://127.0.0.1:5173",
+  "checks": [
+    "Authenticated room snapshots, forged-token rejection, readiness and host authority passed.",
+    "Two independent tokens completed all six rounds; private picks, stale/invalid actions, duplicate picks, exact share arithmetic, reload and concurrent continues passed.",
+    "Rematch state reset and readiness passed.",
+    "Concurrent joins enforce six-player capacity with no lost member or duplicate color.",
+    "Previously reported empty-lobby host recovery is fixed through the real HTTP API."
+  ]
+}

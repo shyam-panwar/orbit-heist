@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "testedAt": "2026-10-23T20:51:52.446Z",
+  "base": "http://127.0.0.1:5173",
+  "checks": [
+    "Actual 45-second deadline enforced.",
+    "Rejected late action still commits resolution.",
+    "Shielded host receives full pool; missed guest earns zero and does not dilute share.",
+    "Subsequent reads cannot score round twice."
+  ]
+}
